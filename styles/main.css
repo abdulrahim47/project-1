@@ -1,0 +1,53 @@
+*{
+    text-align: center;
+
+}
+body{
+    text-align: center;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200626/pngtree-abstract-futuristic-dual-color-blue-pink-neon-banner-image_340219.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: black;
+    font-size: 80px;
+}
+h3{
+    color:white;
+    font-size: 50px;
+}
+
+
+.gameboard{
+    display:flex;
+    flex-wrap: wrap;
+    width: 330px;
+    margin:auto;
+
+    
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color:slateblue;
+    margin:2px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+    
+}
+.restart{
+    background:springgreen;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    margin:auto;
+}
+.start{
+    color: black;
+}
