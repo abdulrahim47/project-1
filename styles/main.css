@@ -10,11 +10,11 @@ body{
 }
 
 h1{
-    color: black;
+    color:black;
     font-size: 80px;
 }
 h3{
-    color:white;
+    color:grey;
     font-size: 50px;
 }
 
@@ -30,16 +30,13 @@ h3{
 .box{
     width: 100px;
     height: 100px;
-    background-color:slateblue;
+    background-color:rgb(7, 181, 187);
     margin:2px;
     font-size: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    
-    
-    
+    size:100px;   
 }
 .restart{
     background:springgreen;
@@ -50,4 +47,12 @@ h3{
 }
 .start{
     color: black;
+}
+.winner{
+    font-size: 50px;
+    color:darkturquoise;
+    font: bolder;
+}
+.win{
+    font-size: 50px;
 }
